@@ -53,6 +53,19 @@ The given SQL code retrieves data from the table CovidDeaths$ in the schema [COV
 
 Code result:![Cap a4](https://github.com/jona00001/Covid-19_Project/assets/108422584/83bad828-f9de-4105-a3ae-824fd9894a8d)
 
+Code Five:
+
+===> Select Location, Population, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
+From [COVID-19_data]..CovidDeaths$
+--Where location like '%states%'
+Group by Location, Population
+order by PercentPopulationInfected desc <===
+
+Code Info: 
+The given SQL code code retrieves information about the highest infection count and the percentage of population infected for each location from the CovidDeaths$ table. It groups the data by location and population, and orders the result set in descending order based on the percentage of population infected.
+
+Code result:!![Cap a5](https://github.com/jona00001/Covid-19_Project/assets/108422584/549c6ee8-0a02-4267-920c-0a75b482f09d)
+
 
 
 
