@@ -1,6 +1,7 @@
 # COVID_19
 
-### Code One: Viewing continent where values are not null.
+Code One: Viewing continent where values are not null.
+
 Select *
 From [COVID-19_data]..CovidDeaths$
 Where continent is not null 
