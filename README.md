@@ -1,6 +1,6 @@
-# Covid-19_Project
+# COVID_19
 
-
+##Code One: Viewing continent where values are not null.
 Select *
 From [COVID-19_data]..CovidDeaths$
 Where continent is not null 
@@ -10,5 +10,9 @@ Code Info: The provided SQL code retrieves all columns from the table `CovidDeat
 
 Code result:
 ![Cap a1](https://github.com/jona00001/Covid-19_Project/assets/108422584/bd293ac1-80d3-425c-a032-205f90cb3325)
+
+
+
+
 
 
