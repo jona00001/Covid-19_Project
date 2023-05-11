@@ -13,7 +13,7 @@ Code result:
 ![Cap a1](https://github.com/jona00001/Covid-19_Project/assets/108422584/bd293ac1-80d3-425c-a032-205f90cb3325)
 
 
-Code Two: Viewing continent where values are not null.
+Code Two: Viewing continent in relation to Location, date, total_cases, new_cases, total_deaths, population
 
 ===>Select Location, date, total_cases, new_cases, total_deaths, population
 From [COVID-19_data]..CovidDeaths$
