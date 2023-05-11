@@ -2,10 +2,10 @@
 
 Code One: Viewing continent where values are not null.
 
-Select *
+===> Select *
 From [COVID-19_data]..CovidDeaths$
 Where continent is not null 
-order by 3,4 
+order by 3,4 <===
 
 Code Info: The provided SQL code retrieves all columns from the table `CovidDeaths$` in the schema `[COVID-19_data]`, where the `continent` column is not null. The result is ordered by the third and fourth columns.
 
