@@ -34,7 +34,8 @@ order by 1,2 <===
 
 Code Info: The given SQL code retrieves data from the table [COVID-19_data]..CovidDeaths$ and calculates the death percentage for each location and date.
 
-Code result:![Cap a3](https://github.com/jona00001/Covid-19_Project/assets/108422584/6c2874c0-814c-4876-901b-7b9cf3479e2b)
+Code result:![cap a-Code three](https://github.com/jona00001/Covid-19_Project/assets/108422584/a71a5bf2-887a-4edf-922b-dec72519cc3c)
+
 
 
 
